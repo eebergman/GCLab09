@@ -6,6 +6,8 @@ public class Circle extends CircleApp {
 	public Circle(double radius) {
 		double b = getArea(radius);
 		double a = getCircumference(radius);
+		
+		
 
 		System.out.println("For your circle with a radius of " + radius + "\n\tCircumference: " + a + "\n\tArea: " + b);
 	}
